@@ -1,8 +1,7 @@
 
 window.onload = function(){
-    //var elem=$('#btn1');
-    var elem = document.getElementById('btn1');
-    elem.onclick = function(){
+
+    $('#btn1').click(function(){
         
         //1. Найти все элементы h1, являющиеся потомками div и заменить их содержимое на произвольное.
         //
@@ -27,6 +26,6 @@ window.onload = function(){
         //5. Извлеките последний li из предыдущего примера.
         //
         $('#test').text('последний li: '+$('ul li:last').text());
-    } 
+    }); 
     
 }
